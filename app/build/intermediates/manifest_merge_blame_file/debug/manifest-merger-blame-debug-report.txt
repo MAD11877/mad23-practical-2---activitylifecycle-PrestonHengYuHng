@@ -1,130 +1,87 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.week2practical"
+3    package="com.example.practical2"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml
+8-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml
+9-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:5:5-29:19
-12        android:allowBackup="true"
-12-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.8.0] C:\Users\Acer\.gradle\caches\transforms-3\395e81acb4e1e79a61fd63dbf4b48ec0\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:7:9-65
-15        android:debuggable="true"
-16        android:fullBackupContent="@xml/backup_rules"
-16-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:8:9-54
-17        android:icon="@mipmap/ic_launcher"
-17-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:9:9-43
-18        android:label="@string/app_name"
-18-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:10:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:11:9-54
-20        android:supportsRtl="true"
-20-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.Week2Practical" >
-22-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:13:9-52
-23        <activity
-23-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:15:9-17:40
-24            android:name="com.example.week2practical.User"
-24-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:16:13-33
-25            android:exported="false" />
-25-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:17:13-37
-26        <activity
-26-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:18:9-28:20
-27            android:name="com.example.week2practical.MainActivity"
-27-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:19:13-41
-28            android:exported="true"
-28-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:20:13-36
-29            android:label="@string/app_name"
-29-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:21:13-45
-30            android:theme="@style/Theme.Week2Practical" >
-30-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:22:13-56
-31            <intent-filter>
-31-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:23:13-27:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:24:17-69
-32-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:24:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:26:17-77
-34-->C:\Preston\Y2S1\MAD\Week 2\Cloned\app\src\main\AndroidManifest.xml:26:27-74
-35            </intent-filter>
-36        </activity>
-37        <activity
-37-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\Acer\.gradle\caches\transforms-3\58e26b1f3fe74d1a3376cb88f3378f38\transformed\ui-tooling-1.3.0\AndroidManifest.xml:23:9-25:39
-38            android:name="androidx.compose.ui.tooling.PreviewActivity"
-38-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\Acer\.gradle\caches\transforms-3\58e26b1f3fe74d1a3376cb88f3378f38\transformed\ui-tooling-1.3.0\AndroidManifest.xml:24:13-71
-39            android:exported="true" />
-39-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\Acer\.gradle\caches\transforms-3\58e26b1f3fe74d1a3376cb88f3378f38\transformed\ui-tooling-1.3.0\AndroidManifest.xml:25:13-36
-40        <activity
-40-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\Acer\.gradle\caches\transforms-3\9b6efd44694e077f804229bb17470e39\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:23:9-25:39
-41            android:name="androidx.activity.ComponentActivity"
-41-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\Acer\.gradle\caches\transforms-3\9b6efd44694e077f804229bb17470e39\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:24:13-63
-42            android:exported="true" />
-42-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\Acer\.gradle\caches\transforms-3\9b6efd44694e077f804229bb17470e39\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:25:13-36
-43
-44        <provider
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\9f3c7b46a60cf2f8c4b6ed097211af73\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-45            android:name="androidx.startup.InitializationProvider"
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\9f3c7b46a60cf2f8c4b6ed097211af73\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-46            android:authorities="com.example.week2practical.androidx-startup"
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\9f3c7b46a60cf2f8c4b6ed097211af73\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-47            android:exported="false" >
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\9f3c7b46a60cf2f8c4b6ed097211af73\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-48            <meta-data
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\9f3c7b46a60cf2f8c4b6ed097211af73\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\9f3c7b46a60cf2f8c4b6ed097211af73\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-50                android:value="androidx.startup" />
-50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\9f3c7b46a60cf2f8c4b6ed097211af73\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-51            <meta-data
-51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Acer\.gradle\caches\transforms-3\a48d61329f64cae5ff613f2244e39ed0\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Acer\.gradle\caches\transforms-3\a48d61329f64cae5ff613f2244e39ed0\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-53                android:value="androidx.startup" />
-53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Acer\.gradle\caches\transforms-3\a48d61329f64cae5ff613f2244e39ed0\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-54            <meta-data
-54-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
-55                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-55-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
-56                android:value="androidx.startup" />
-56-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
-57        </provider>
-58
-59        <receiver
-59-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
-60            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-60-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
-61            android:directBootAware="false"
-61-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
-62            android:enabled="true"
-62-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
-63            android:exported="true"
-63-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
-64            android:permission="android.permission.DUMP" >
-64-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
-65            <intent-filter>
-65-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
-66                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-66-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
-66-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
-67            </intent-filter>
-68            <intent-filter>
-68-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
-69                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-69-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
-69-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\861d7c64070f15f2209783cec6583f32\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
-70            </intent-filter>
-71        </receiver>
-72    </application>
-73
-74</manifest>
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Acer\.gradle\caches\transforms-3\8c25e88eb4ea76e8f3d0900731d8ae12\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.practical2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Acer\.gradle\caches\transforms-3\8c25e88eb4ea76e8f3d0900731d8ae12\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Acer\.gradle\caches\transforms-3\8c25e88eb4ea76e8f3d0900731d8ae12\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.practical2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Acer\.gradle\caches\transforms-3\8c25e88eb4ea76e8f3d0900731d8ae12\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Acer\.gradle\caches\transforms-3\8c25e88eb4ea76e8f3d0900731d8ae12\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:5:5-24:19
+18        android:allowBackup="true"
+18-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Acer\.gradle\caches\transforms-3\8c25e88eb4ea76e8f3d0900731d8ae12\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:9:9-43
+24        android:label="@string/app_name"
+24-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:10:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:11:9-54
+26        android:supportsRtl="true"
+26-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:12:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.Practical2" >
+28-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:13:9-48
+29        <activity
+29-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:15:9-23:20
+30            android:name="com.example.practical2.MainActivity"
+30-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:16:13-41
+31            android:exported="true" >
+31-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:17:13-36
+32            <intent-filter>
+32-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:18:13-22:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:19:17-69
+33-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:19:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:21:17-77
+35-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:21:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+41            android:authorities="com.example.practical2.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Acer\.gradle\caches\transforms-3\ae3e8265de2d7f874c642be745cd48da\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Acer\.gradle\caches\transforms-3\ae3e8265de2d7f874c642be745cd48da\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Acer\.gradle\caches\transforms-3\ae3e8265de2d7f874c642be745cd48da\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>

@@ -1,16 +1,10 @@
-#Tue Apr 25 11:36:52 SGT 2023
-base.0=C\:\\Preston\\Y2S1\\MAD\\Week 2\\Cloned\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Preston\\Y2S1\\MAD\\Week 2\\Cloned\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Preston\\Y2S1\\MAD\\Week 2\\Cloned\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.3=C\:\\Preston\\Y2S1\\MAD\\Week 2\\Cloned\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.4=C\:\\Preston\\Y2S1\\MAD\\Week 2\\Cloned\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Wed Apr 26 10:33:09 SGT 2023
+base.0=C\:\\Preston\\Y2S1\\MAD\\Week 2 (retry)\\Cloned\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Preston\\Y2S1\\MAD\\Week 2 (retry)\\Cloned\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Preston\\Y2S1\\MAD\\Week 2 (retry)\\Cloned\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
-path.2=3/classes.dex
-path.3=9/classes.dex
-path.4=classes2.dex
+path.2=2/classes.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
-renamed.3=classes4.dex
-renamed.4=classes5.dex
