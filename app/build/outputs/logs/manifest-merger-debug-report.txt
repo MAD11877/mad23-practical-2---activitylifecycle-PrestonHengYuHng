@@ -102,12 +102,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ac
 		ADDED from C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:13:9-48
 	android:dataExtractionRules
 		ADDED from C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.practical2.MainActivity
+activity#sg.edu.np.mad.madpractical.MainActivity
 ADDED from C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:exported
 		ADDED from C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:16:13-67
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN

@@ -45,8 +45,8 @@
 28-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:13:9-48
 29        <activity
 29-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:15:9-23:20
-30            android:name="com.example.practical2.MainActivity"
-30-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:16:13-41
+30            android:name="sg.edu.np.mad.madpractical.MainActivity"
+30-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:16:13-67
 31            android:exported="true" >
 31-->C:\Preston\Y2S1\MAD\Week 2 (retry)\Cloned\app\src\main\AndroidManifest.xml:17:13-36
 32            <intent-filter>

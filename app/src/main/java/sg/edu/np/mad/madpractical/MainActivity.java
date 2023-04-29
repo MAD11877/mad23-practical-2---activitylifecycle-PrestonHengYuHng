@@ -1,9 +1,11 @@
-package com.example.practical2;
+package sg.edu.np.mad.madpractical;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Button;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.practical2.R;
 
 public class MainActivity extends AppCompatActivity {
 
