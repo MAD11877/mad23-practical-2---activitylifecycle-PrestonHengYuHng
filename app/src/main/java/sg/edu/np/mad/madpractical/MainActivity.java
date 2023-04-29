@@ -17,14 +17,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void buttonFollow(View v){
         Button button = (Button) v;
-        if (User.Followed == false){
+        if (UserTest.Followed == false){
             button.setText("Unfollow");
-            User.Followed = true;
+            UserTest.Followed = true;
         }
 
         else {
             button.setText("Follow");
-            User.Followed = false;
+            UserTest.Followed = false;
         }
 
 
