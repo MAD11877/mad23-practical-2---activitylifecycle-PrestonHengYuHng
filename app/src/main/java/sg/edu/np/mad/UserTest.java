@@ -1,10 +1,10 @@
-package sg.edu.np.mad.madpractical;
+package sg.edu.np.mad;
 
 public class UserTest {
-    static String Name;
-    static String Description;
-    static int Id;
-    static boolean Followed;
+    public String Name;
+    public String Description;
+    public int Id;
+    public static boolean Followed;
 
     public UserTest(String name, String description, int id) {
         Name = name;
