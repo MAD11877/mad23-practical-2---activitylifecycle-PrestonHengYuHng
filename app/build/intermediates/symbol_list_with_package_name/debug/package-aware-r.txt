@@ -2603,7 +2603,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
+id btnFollow
 id button2
 id button3
 id buttonPanel
@@ -2723,6 +2723,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id imageView3
 id immediateStop
 id included

@@ -9,14 +9,14 @@
     tools:context="sg.edu.np.mad.madpractical.MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnFollow"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="#C83247BF"
         android:onClick="buttonFollow"
-        android:text="Follow"
+        android:text="FOLLOW"
         android:textColor="#FDFCFC"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
