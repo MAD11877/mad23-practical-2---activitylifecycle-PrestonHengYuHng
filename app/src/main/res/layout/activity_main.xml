@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#00F0F3F4"
+    app:layout_constraintWidth="128dp"
     tools:context="sg.edu.np.mad.madpractical.MainActivity">
 
     <Button
@@ -106,10 +107,13 @@
         app:flow_horizontalAlign="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight="128dp"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.222"
+        app:layout_constraintWidth="128dp"
+        app:layout_goneMarginTop="32dp"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
